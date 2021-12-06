@@ -24,7 +24,7 @@ function Navbar() {
        <nav className="navbar">
            <div className="navbar-container">
                <Link to="/" className="navbar-logo">
-                   WXnSKN <i className='fab fa-typo3' />
+                   WXnSKN SPA<i className='fab fa-typo3' />
                </Link>
                <div classname="menu-icon" onClick={handleClick}>
                    <i className={ click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -36,17 +36,17 @@ function Navbar() {
                        </Link>
                    </li>
                    <li className='nav-item'>
-                       <Link to='/Services' className='nav-links' onClick={closeMobileMenu}>
+                       <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
                            Services
                        </Link>
                    </li>
                    <li className='nav-item'>
-                       <Link to='/Products' className='nav-links' onClick={closeMobileMenu}>
+                       <Link to='/products' className='nav-links' onClick={closeMobileMenu}>
                            Products
                        </Link>
                    </li>
                    <li className='nav-item'>
-                       <Link to='/Log-in' className='nav-links-mobile' onClick={closeMobileMenu}>
+                       <Link to='/log-in' className='nav-links-mobile' onClick={closeMobileMenu}>
                            Log in
                        </Link>
                    </li>
